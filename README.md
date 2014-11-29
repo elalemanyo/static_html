@@ -47,28 +47,28 @@ static_html
 
 #### 1. Install Bower:
 
-`npm install -g bower` 
+`$ npm install -g bower` 
 
 Bower requires [Node and npm](http://nodejs.org) and [Git](http://git-scm.com).
 
 #### 2. Install all packages:
 
-`bower install` 
+`$ bower install` 
 
 
 #### 3. Install gulp globally:
 
-`npm install --global gulp` 
+`$ npm install --global gulp` 
 
 
 #### 4. Install gulp devDependencies:
 
-`cd config` 
+`$ cd config` 
 
-`npm install` 
+`$ npm install` 
 
 #### 5. Run gulp and start Working:
-`gulp` 
+`$ gulp` 
 
 ##Add packages with Bower
 
