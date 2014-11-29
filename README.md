@@ -1,7 +1,7 @@
 # HTML Starter kit
 
 ## Overview
----
+
 Starter kit for static HTML Project, using Gulp and Bower.
 
 Bower add for the moment Normalize.css and jQuery.
@@ -14,7 +14,6 @@ Gulp do:
 
 
 ## Project Tree
----
 
 <pre>
 static_html
@@ -43,7 +42,7 @@ static_html
 </pre>
 
 ##Getting Started
----
+
 #### 1. Install Bower:
 
 `npm install -g bower` 
@@ -70,7 +69,7 @@ Bower requires [Node and npm](http://nodejs.org) and [Git](http://git-scm.com).
 `gulp` 
 
 ##Add packages with Bower
----
+
 `bower install [<options>]`
 
 `bower install <endpoint> [<endpoint> ..] [<options>]`
@@ -95,7 +94,6 @@ Where:
 __Caution:__ do not forget to add `--save-dev`, save installed packages into the project’s bower.json devDependencies.
 
 ##Dependencies
----
 
 * NodeJS (npm)
 
