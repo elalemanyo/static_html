@@ -1,0 +1,10 @@
+{
+  "name": "gulp-bower-example",
+  "version": "0.0.0",
+  "description": "",
+  "private": true,
+  "devDependencies": {
+    "normalize.css": "~3.0.2",
+    "jquery": "~2.1.1"
+  }
+}

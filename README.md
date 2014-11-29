@@ -40,7 +40,9 @@ static_html
 │   	├── img
 │   	└── scripts
 │
-└── .gitignore
+├── .gitignore
+│
+└── index.php
 </pre>
 
 ##Getting Started
@@ -52,6 +54,8 @@ static_html
 Bower requires [Node and npm](http://nodejs.org) and [Git](http://git-scm.com).
 
 #### 2. Install all packages:
+
+`$ cd config` 
 
 `$ bower install` 
 
