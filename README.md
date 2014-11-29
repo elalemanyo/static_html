@@ -32,7 +32,7 @@ static_html
 ├── config
 │     ├── .bowerrc
 │     ├── bower.json
-│     ├── gulpfile.j
+│     ├── gulpfile.js
 │     └── package.json
 │
 ├── public
