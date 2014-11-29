@@ -22,23 +22,25 @@ static_html
 │   ├── img
 │   ├── scripts
 │   └── styles 
-│	   ├── css
-│	   └── scss
-│	   		├── includes
-│   		│	   ├── mixins.scss
-│   		│	   └── variables.scss
-│	   		└── main.scss
+│		   ├── css
+│	   	   └── scss
+│	   		 ├── includes
+│   		 │	    ├── mixins.scss
+│   		 │	    └── variables.scss
+│	   		 └── main.scss
 │
 ├── config
-│    ├── .bowerrc
-│    ├── bower.json
-│    ├── gulpfile.j
-│    └── package.json
+│     ├── .bowerrc
+│     ├── bower.json
+│     ├── gulpfile.j
+│     └── package.json
 │
-└── public
-    ├── css
-    ├── img
-    └── scripts
+├── public
+│   	├── css
+│   	├── img
+│   	└── scripts
+│
+└── .gitignore
 </pre>
 
 ##Getting Started
