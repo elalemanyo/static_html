@@ -2,9 +2,12 @@
 
 ## Overview
 
-Starter kit for static HTML Project, using Gulp and Bower.
+Starter kit for static HTML Project, using [Gulp](http://gulpjs.com) and [Bower](http://bower.io).
+
+Here a good article about Bower: [What’s So Great About Bower? [Chris Coyier]](http://css-tricks.com/whats-great-bower/)
 
 Bower add for the moment Normalize.css and jQuery.
+
 Gulp do:
 
 * SASS tasks
