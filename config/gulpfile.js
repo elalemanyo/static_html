@@ -38,9 +38,12 @@ var pathsWatch = {
 // SASS task
 gulp.task('scss', function(){
   gulp.src(pathsSrc.scss)
-    .pipe($.sass({outputStyle: 'compressed'}))
-    .pipe(gulp.dest(pathsDest.scss))
-    .pipe($.notify({ message: 'SASS task complete' }));
+  .pipe($.sass({outputStyle: 'compressed'}))
+  .on('error', $.notify.onError(function (error) {
+    return "SASS Compile Error: " + error.message;
+  }))
+  .pipe(gulp.dest(pathsDest.scss))
+  .pipe($.notify({ message: 'SASS task complete' }));
 });
 
 // CSS task
