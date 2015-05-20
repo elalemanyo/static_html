@@ -58,8 +58,6 @@ Bower requires [Node and npm](http://nodejs.org) and [Git](http://git-scm.com).
 
 #### 2. Install all packages:
 
-`$ cd config` 
-
 `$ bower install` 
 
 
@@ -69,8 +67,6 @@ Bower requires [Node and npm](http://nodejs.org) and [Git](http://git-scm.com).
 
 
 #### 4. Install gulp devDependencies:
-
-`$ cd config` 
 
 `$ npm install`
 
