@@ -72,9 +72,14 @@ Bower requires [Node and npm](http://nodejs.org) and [Git](http://git-scm.com).
 
 `$ cd config` 
 
-`$ npm install` 
+`$ npm install`
 
-#### 5. Run gulp and start Working:
+#### 5. Run Composer:
+
+1. Get [Composer](http://getcomposer.org/)
+2. Installs the project dependencies `php composer.phar install`
+
+#### 6. Run gulp and start Working:
 `$ gulp` 
 
 ##Add packages with Bower
