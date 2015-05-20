@@ -32,20 +32,20 @@ static_html
 │   		 │	    └── variables.scss
 │	   		 └── main.scss
 │
-├── config
-│     ├── .bowerrc
-│     ├── bower.json
-│     ├── gulpfile.js
-│     └── package.json
 │
 ├── public
-│   	├── css
-│   	├── img
-│   	└── scripts
+│     ├── css
+│     ├── img
+│     ├── scripts
+│     └── index.php
 │
 ├── .gitignore
-│
-└── index.php
+├── .bowerrc
+├── bower.json
+├── gulpfile.js
+├── package.json
+├── composer.json
+└── composer.lock	
 </pre>
 
 ##Getting Started

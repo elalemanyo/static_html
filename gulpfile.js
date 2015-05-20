@@ -2,23 +2,23 @@ var gulp = require('gulp');
 $ = require('gulp-load-plugins')();
 
 var pathsSrc = {
-  scss: '../assets/styles/scss/*.scss',
+  scss: 'assets/styles/scss/*.scss',
   css: [
-    '../libraries/normalize.css/normalize.css',
-    '../assets/styles/css/*.css',
+    'bower/normalize.css/normalize.css',
+    'assets/styles/css/*.css',
   ],
-  img: '../assets/img/**/*',
+  img: 'assets/img/**/*',
   js: [
-    '../libraries/jquery/dist/jquery.js',
-    '../assets/scripts/*.js',
+    'bower/jquery/dist/jquery.js',
+    'assets/scripts/*.js',
   ]
 };
 
 var pathsDest = {
-  scss: '../assets/styles/css',
-  css: '../public/css',
-  img: '../public/img',
-  js:  '../public/scripts'
+  scss: 'assets/styles/css',
+  css: 'public/css',
+  img: 'public/img',
+  js:  'public/scripts'
 };
 
 var fileNames = {
@@ -27,11 +27,11 @@ var fileNames = {
 };
 
 var pathsWatch = {
-  scss: '../assets/styles/scss/**/*',
-  css: '../assets/styles/css/*',
-  img: '../assets/img/**/*',
+  scss: 'assets/styles/scss/**/*',
+  css: 'assets/styles/css/*',
+  img: 'assets/img/**/*',
   js: [
-    '../assets/scripts/*.js',
+    'assets/scripts/*.js',
   ]
 };
 
